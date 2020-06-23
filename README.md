@@ -7,7 +7,7 @@ Wrote local python/shell script to simulate web traffic data, writing each line 
 This is to simulate web application writing traffic details to log file.
 
 * It has shell scripts which invoke python program
-* It is compatible with Python 2
+* It is compatible with Python 3
 
 Here is the setup process on linux or mac or on cygwin.
 
