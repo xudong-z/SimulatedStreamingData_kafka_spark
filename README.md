@@ -2,7 +2,7 @@
 Wrote local python/shell script to simulate web traffic data, writing each line in a streaming fashion to Kafka and Spark
 
 
-# Part1. gen_logs
+## Use gen_logs to simulate traffic data
 
 This is to simulate web application writing traffic details to log file.
 
@@ -19,3 +19,8 @@ Here is the setup process on linux or mac or on cygwin.
 * Run ```start_logs.sh``` to start generating web logs
 * Run ```tail_logs.sh``` to preview while logs are being generated (Hit ctrl-c to come out)
 * Run ```stop_logs.sh``` to stop generating web logs
+
+
+## write log files to Kafka topic after setup
+
+* for eample, ```tail_logs.sh|nc -lk gw02.itversity.com 9999```
